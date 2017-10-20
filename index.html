@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>いろいろ置き場</title>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="swiper.min.css">
+
+    <!--navigation menu -->
+    <div class="container">
+        <div class="banner-wrapper">
+            <div class="banner">
+                <div class="top">
+                    <div class="logo">(^O^)／勉強なう。@ひこん</div>
+                    <a href="https://twitter.com/share" class="twitter-share-button" data-via="sam_mh" data-size="large">Tweet</a>
+                    <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
+                </div>
+                <div class="nav">
+                    <ul class="menu">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/hikonnico2" target=”_blank”>GitHub</a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/sam_mh" target=”_blank”>Twitter</a>
+                        </li>
+                        <li>
+                            <a href="https://hikonblog.blogspot.jp/" target=”_blank”>BLOG</a>
+                        </li>
+                        <li>
+                            <a href="https://www.nnn.ed.nico/home" target=”_blank”>N予備校</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--背景ムービー -->
+    <video src="image/morning.mp4" loop muted autoplay>
+        <img src="image/sora1.jpg" alt="Placeholder">
+        <p>video要素がサポートされていないブラウザでご覧になっています。</p>
+    </video>
+
+
+</head>
+<body>
+    <!-- Link top.css -->
+    <link rel="stylesheet" href="top.css">
+    <script src="top.js"></script>
+    <script src="rellax.min.js"></script>
+    <script>
+        var rellax = new Rellax('.rellax');
+    </script>
+    <div class="rellax" data-rellax-speed="-3"></div>
+
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <a href="https://hikonnico2.github.io/today-yuhan/" target=”_blank”>
+                    <img src="image/rundam.jpg">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="https://hikonnico2.github.io/firstgame/" target=”_blank”>
+                    <img src="image/gun.jpg">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="https://hikonnico2.github.io/shinkeisuijyakugame/" target=”_blank”>
+                    <img src="image/sinkei.jpg">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="https://morning-meadow-96168.herokuapp.com/" target=”_blank”>
+                    <img src="image/yotei.jpg">
+                </a>
+            </div>
+            <div class="swiper-slide">作成中</div>
+
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            slidesPerView: 3,
+            paginationClickable: true,
+            spaceBetween: 30,
+            freeMode: true
+        });
+    </script>
+    <div class="texts">
+        <p>
+            <h1>プログラミング勉強中</h1>
+        </p>
+
+        <p>過去に作ったサイト置いてます。</p>
+        <p>　</p>
+        <p>テスト</p>
+        <p>　</p>
+        <p>　</p>
+        <p>テスト</p>
+        <p>　</p>
+        <p>　</p>
+        <p>テスト</p>
+    </div>
+    <!-- rellax-->
+    <script src="rellax.min.js"></script>
+    <div class="texts">
+        <h1>あいうえお</h1>
+        <p> </p>
+        <p>ここにサブのテキストを表示予定</p>
+        <p> </p>
+        <p>テスト</p>
+        <p>　</p>
+        <p>　</p>
+        <p>テスト</p>
+        <p>　</p>
+        <p>　</p>
+        <p>テスト</p>
+    </div>
+</body>
+</html>
