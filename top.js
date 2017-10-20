@@ -20,7 +20,7 @@
       banner.style.background = 'rgba(162, 197, 35, 0.6)';
       refOffset = newOffset;
     } else {
-      banner.style.backgroundColor = 'rgb(223, 253, 112)'; /*rgba(162, 197, 35, 1)*/
+      banner.style.backgroundColor = 'rgba(227, 253, 112, 0.9)'; /*rgba(162, 197, 35, 1)*/
     }
   };
 
