@@ -10,13 +10,22 @@
     <link rel="shortcut icon" href="./image/profileicon.ico">
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="swiper.min.css">
+    <!-- Link top.css -->
+    <link rel="stylesheet" href="top.css">
+    <!--背景ムービー -->
+    <video src="image/morning.mp4" loop muted autoplay>
+        <img src="image/sora1.jpg" alt="Placeholder">
+        <p>video要素がサポートされていないブラウザでご覧になっています。</p>
+    </video>
+</head>
 
+<body>
     <!--navigation menu -->
     <div class="container">
         <div class="banner-wrapper">
             <div class="banner">
                 <div class="top">
-                    <div class="logo">(^O^)／勉強なう。@ひこん</div>
+                    <div class="logo">いろいろ置き場</div>
                     <a href="https://twitter.com/share" class="twitter-share-button" data-via="sam_mh" data-size="large">Tweet</a>
                     <script>!function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');</script>
                 </div>
@@ -38,34 +47,26 @@
                             <a href="https://www.nnn.ed.nico/home" target=”_blank”>N予備校</a>
                         </li>
                         <li>
-                            <a href="https://hikonnico2.github.io/overwatch-heya/." target="_blank">オーバーウォッチ</a> 
+                            <a href="https://hikonnico2.github.io/overwatch-heya/." target="_blank">オーバーウォッチ</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-    <!--背景ムービー -->
-    <video src="image/morning.mp4" loop muted autoplay>
-        <img src="image/sora1.jpg" alt="Placeholder">
-        <p>video要素がサポートされていないブラウザでご覧になっています。</p>
-    </video>
-
-
-</head>
-<body>
-    <!-- Link top.css -->
-    <link rel="stylesheet" href="top.css">
     <script src="top.js"></script>
     <script src="rellax.min.js"></script>
     <script>
         var rellax = new Rellax('.rellax');
     </script>
     <div class="rellax" data-rellax-speed="-3"></div>
-
-    <!-- Swiper -->
+    
+    <!-- Swiper #1 -->
     <div class="swiper-container">
         <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                作ったWebアプリとか
+            </div>
             <div class="swiper-slide">
                 <a href="https://hikonnico2.github.io/today-yuhan/" target=”_blank”>
                     <img src="image/rundam.jpg">
@@ -86,17 +87,16 @@
                     <img src="image/yotei.jpg">
                 </a>
             </div>
-            <div class="swiper-slide">作成中</div>
 
         </div>
         <!-- Add Pagination -->
         <div class="swiper-pagination"></div>
     </div>
 
-    <!-- Swiper JS -->
+    <!-- Swiper JS #1 -->
     <script src="swiper.min.js"></script>
 
-    <!-- Initialize Swiper -->
+    <!-- Initialize Swiper #1 -->
     <script>
         var swiper = new Swiper('.swiper-container', {
             pagination: '.swiper-pagination',
@@ -106,20 +106,44 @@
             freeMode: true
         });
     </script>
-    <div class="texts">
-        <p>
-            <h1>プログラミング勉強中</h1>
-        </p>
-        <p>作ったサイト置いてます。</p>
-    </div>
+    
+    <!-- Swiper #2 -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                Unityで作ったもの
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="https://hikonnico2.github.io/monaction/" target=”_blank”>
+                    <img src="image/Unity1.jpg">
+                </a>
+            </div>
+            <div class="swiper-slide">
+                <a href="https://hikonnico2.github.io/monageclicker/" target=”_blank”>
+                    <img src="image/Unity2.jpg">
+                </a>
+            </div>
+    
+        </div>
+
+    <!-- Swiper JS　#2 -->
+    <script src="swiper.min.js"></script>
+
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- Initialize Swiper　#2 -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            slidesPerView: 3,
+            paginationClickable: true,
+            spaceBetween: 30,
+            freeMode: true
+        });
+    </script>
     <!-- rellax-->
     <script src="rellax.min.js"></script>
-    <div class="texts">
-        <p>
-            <h1>Twitter</h1>
-        </p>
-        <p><a class="twitter-timeline" data-height="1000" data-theme="light" data-link-color="#2B7BB9" href="https://twitter.com/sam_mh?ref_src=twsrc%5Etfw">Tweets by sam_mh</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-        <p></p>
-    </div>
 </body>
 </html>
